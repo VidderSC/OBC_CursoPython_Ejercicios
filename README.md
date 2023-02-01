@@ -1,5 +1,5 @@
 # OpenBootCamp - Curso de Python
-## Repositorio para mi solución de los ejercicios.
+## Mis soluciones a los ejercicios propuestos durante el curso.
 
 - Ejercicio 1:
 Desde la consola de python almacena la cadena “Hola mundo!” en una variable y muéstrala.
