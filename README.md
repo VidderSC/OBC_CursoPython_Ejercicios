@@ -15,3 +15,6 @@ donde es el índice de masa corporal calculado redondeado con dos decimales.
 
 - Ejercicio 4:
 Escribe un programa que sea capaz de mostrar los números del 1 al 100 en orden inverso.
+
+- Ejercicio 5:
+Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
