@@ -7,9 +7,9 @@ def is_bisiesto(number):
         return False
 
 
-print("Introduce un año:")
-year = int(input())
+year = int(input("Introduce un año: "))
 if is_bisiesto(year):
     print("El año", year, "es bisiesto.")
 else:
     print("El año", year, "no es bisiesto.")
+    
