@@ -13,27 +13,24 @@
 # y mostrarlo por consola.
 
 class Vehiculo:
-    def color(self):
-        return "Rojo"
-
-    def ruedas(self):
-        return 4
-
-    def puertas(self):
-        return 5
+    def __init__(self, color, ruedas, puertas):
+        self.color = color
+        self.ruedas = ruedas
+        self.puertas = puertas
 
 
-class Coche(Vehiculo):
-    def velocidad(self):
-        return 200
+class Car(Vehiculo):
+    def __init__(self, color, ruedas, puertas, velocidad, cilindrada):
+        super().__init__(color, ruedas, puertas)
+        self.color = color
+        self.ruedas = ruedas
+        self.puertas = puertas
+        self.velocidad = velocidad
+        self.cilindrada = cilindrada
 
-    def cilindrada(self):
-        return 2000
+    def __str__(self):
+        return "Color {}, {} ruedas y {} puertas. Velocidad: {} Km/h, {} cc.".format(self.color, self.ruedas, self.puertas, self.velocidad, self.cilindrada)
 
 
-c = Coche()
-print("Color:", c.color())
-print("Ruedas:", c.ruedas())
-print("Puertas:", c.puertas())
-print("Velocidad:", c.velocidad())
-print("Cilindrada:", c.cilindrada())
+coche = Car("Rojo", 4, 5, 180, 2000)
+print(coche)
