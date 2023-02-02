@@ -25,3 +25,7 @@ Color, Ruedas y Puertas.
 Por otro lado, crearéis la clase Coche, la cual heredará de Vehículo y tendrá los siguientes atributos:
 Velocidad y Cilindrada.
 Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
+
+- Ejercicio 7:
+En este ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno, que tenga como atributos su nombre y su nota.
+Deberéis definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no.
