@@ -29,3 +29,7 @@ Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por cons
 - Ejercicio 7:
 En este ejercicio, tendréis que crear un programa que tenga una clase llamada Alumno, que tenga como atributos su nombre y su nota.
 Deberéis definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado o no.
+
+- Ejercicio 8:
+En este ejercicio tendréis que crear un módulo que contenga las operaciones básicas de una calculadora: Sumar, Restar, Multiplicar y Dividir.
+Este módulo lo importaréis a un archivo python y llamaréis a las funciones creadas. Los resultados tenéis que mostrarlos por consola.
