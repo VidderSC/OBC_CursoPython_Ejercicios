@@ -9,10 +9,10 @@
 import time
 
 hora = time.localtime()
-if hora[3] >= 19 and hora[4] >= 0:
+if hora[3] >= 19:
     print("Son más de las 7 de la tarde, hora de irse a casa!")
 else:
-    if 19 - hora[3] > 1:
-        print("Faltan", (19 - hora[3]), "horas y", (60 - hora[4]), "minutos para irse a casa")
+    if 18 - hora[3] > 1:
+        print("Faltan", (18 - hora[3]), "horas y", (59 - hora[4]), "minutos para irse a casa")
     else:
-        print("Falta", (19 - hora[3]), "hora y", (60 - hora[4]), "minutos para irse a casa")
+        print("Falta", (18 - hora[3]), "hora y", (59 - hora[4]), "minutos para irse a casa")
