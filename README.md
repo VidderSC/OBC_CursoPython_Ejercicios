@@ -44,3 +44,4 @@ En este ejercicio, tendréis que crear un archivo py donde creéis un archivo tx
 Para ello, tendréis que acceder dos veces a ese archivo.
 
 - Ejercicio 11:
+En este segundo ejercicio, tendréis que crear un archivo py y dentro crearéis una clase Vehículo, haréis un objeto de ella, lo guardaréis en un archivo y luego lo cargamos.
