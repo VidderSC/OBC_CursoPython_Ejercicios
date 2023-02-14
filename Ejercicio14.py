@@ -9,12 +9,9 @@ from tkinter import ttk
 
 window = tkinter.Tk()
 
-lista = ['Windows', 'MacOS', 'Linux', 'FreeBSD']
+lista = ['Windows', 'MacOS', 'Linux', 'Unix', 'Solaris', 'FreeBSD']
 
 selected = tkinter.IntVar()
-
-window.columnconfigure(0, weight=1)
-window.columnconfigure(1, weight=3)
 
 label = ttk.Label(window)
 
@@ -36,6 +33,8 @@ r1 = ttk.Radiobutton(window, text=lista[0], value='1', variable=selected, comman
 r2 = ttk.Radiobutton(window, text=lista[1], value='2', variable=selected, command=sel)
 r3 = ttk.Radiobutton(window, text=lista[2], value='3', variable=selected, command=sel)
 r4 = ttk.Radiobutton(window, text=lista[3], value='4', variable=selected, command=sel)
+r5 = ttk.Radiobutton(window, text=lista[4], value='5', variable=selected, command=sel)
+r6 = ttk.Radiobutton(window, text=lista[5], value='6', variable=selected, command=sel)
 
 button_reset = ttk.Button(window, text="Reinicio", command=reset)
 
@@ -43,6 +42,8 @@ r1.pack(ipadx=30, ipady=10, anchor=tkinter.W)
 r2.pack(ipadx=30, ipady=10, anchor=tkinter.W)
 r3.pack(ipadx=30, ipady=10, anchor=tkinter.W)
 r4.pack(ipadx=30, ipady=10, anchor=tkinter.W)
+r5.pack(ipadx=30, ipady=10, anchor=tkinter.W)
+r6.pack(ipadx=30, ipady=10, anchor=tkinter.W)
 
 label.pack(ipady=10, anchor=tkinter.W)
 
