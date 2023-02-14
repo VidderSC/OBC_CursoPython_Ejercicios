@@ -51,3 +51,8 @@ Crea un script que le pida al usuario una lista de países (separados por comas)
 
 - Ejercicio 13:
 En este segundo ejercicio, tenéis que crear una aplicación que obtendrá los elementos impares de una lista pasada por parámetro con 'filter' y realizará una suma de todos estos elementos obtenidos mediante 'reduce'.
+
+- Ejercicio 14:
+En este ejercicio tenéis que crear una lista de RadioButton que muestre la opción que se ha seleccionado y que contenga un botón de reinicio para que deje tal y como estaba al principio. l principio no tiene que haber una opción seleccionada.
+
+- Ejercicio 15:
